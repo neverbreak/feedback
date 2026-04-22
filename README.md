@@ -10,4 +10,4 @@ Open an issue if you've:
 
 Every issue gets read. Replies usually within a day.
 
-For private/security issues: email `lakshmipathi@neverbreak.ai` directly.
+For private/security issues: email `support@neverbreak.ai` directly.
