@@ -1,0 +1,31 @@
+name: Bug report
+description: Something broke or behaved unexpectedly
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do and what did the app do?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: false
+  - type: input
+    id: when
+    attributes:
+      label: Roughly when did this happen?
+      placeholder: e.g. "around 2pm CEST today"
+    validations:
+      required: false
+  - type: textarea
+    id: extras
+    attributes:
+      label: Screenshot or logs (optional)
+      description: Drag images here. Don't paste any tokens or secrets.
+    validations:
+      required: false

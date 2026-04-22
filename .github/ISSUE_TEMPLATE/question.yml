@@ -1,0 +1,10 @@
+name: Question
+description: Anything else
+labels: ["question"]
+body:
+  - type: textarea
+    id: q
+    attributes:
+      label: What's on your mind?
+    validations:
+      required: true

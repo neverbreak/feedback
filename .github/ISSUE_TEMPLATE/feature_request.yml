@@ -1,0 +1,17 @@
+name: Feature request
+description: What would make this more useful for you
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it matter to you?
+      description: Helps us prioritize.
+    validations:
+      required: false
